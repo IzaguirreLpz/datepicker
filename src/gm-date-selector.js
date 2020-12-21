@@ -205,6 +205,7 @@
             // var yearSelectorElement = document.getElementsByClassName('year-selector-controller');
             yearSelectorElement.addEventListener('change', function(){
                 self.setSelectedYear(this.value);
+                yearOption.selected = "2019";
                 // alert(this.value);
             });
 
